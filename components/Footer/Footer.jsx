@@ -48,7 +48,7 @@ const Footer = () => {
 
           <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.footer__creator}`}>
-              <h6>Created by Muhib</h6>
+              <h6></h6>
             </div>
           </Col>
 
@@ -56,8 +56,8 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Muhibur Rahman. All right
-                reserved.{" "}
+                 Solving real world problems with Code.
+                {" "}
               </p>
             </div>
           </Col>
