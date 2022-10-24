@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  background: #0e1630;
+}
+
+p {
+  color: #808dad;
+  line-height: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
