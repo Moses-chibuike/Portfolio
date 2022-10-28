@@ -2,8 +2,9 @@ import React from "react";
 import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
+import BgAnimation from './BackgroundAnimation';
 import Link from "next/link";
-import heroImg from "../../public/images/hero.jpg";
+import heroImg from "../../public/images/hero2.png";
 import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
@@ -15,20 +16,18 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Muhibur Rahman</h2>
+              <h2 className="mt-3 mb-3">I&apos;m Moses Ezechukwu</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+              I have robust experience building amazing front-end projects both independently and as part of a team.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#">Connect on GitHub</Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="#">Linkedin</Link>
                 </button>
               </div>
             </div>
@@ -37,42 +36,8 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
-
-              <div className={`${classes.hero__skills}`}>
-                <h6>Skills</h6>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
-                <span>
-                  <i className="ri-bar-chart-line"></i>
-                </span>
+            <div className="hero__img"><BgAnimation /></div>
               </div>
-
-              <div
-                className={`${classes.hero__experience} d-flex align-items-center gap-3`}
-              >
-                <span>
-                  <i className="ri-lightbulb-flash-line"></i>
-                </span>
-                <div className="bg-transparent">
-                  <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
-                </div>
-              </div>
-            </div>
           </Col>
         </Row>
       </Container>

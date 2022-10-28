@@ -16,16 +16,18 @@ const About = () => {
     <section id="about">
       <Container>
         <Row>
-          <Col lg="6" className={`${classes.about__content}`}>
+          <Col lg="10" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+            I am a self-taught frontend web developer from an engineering background. 
+            Through my past professional experiences, I can balance the needs of users 
+            and businesses to understand their challenges and how I can contribute as a 
+            developer to solving these challenges. I am able to listen to clients on what 
+            their needs are, and work together to create a lasting solution. My experience 
+            working with diverse individuals from different backgrounds has imbued me with 
+            adaptability and flexibility in the workplace.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -43,6 +45,7 @@ const About = () => {
                   </span>
                   Search A Lot
                 </h6>
+                
               </div>
 
               <div>
@@ -60,52 +63,11 @@ const About = () => {
                   High Quality
                 </h6>
               </div>
-            </div>
 
-            <div className="mt-5">
-              <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
-              </button>
-
-              <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button>
             </div>
           </Col>
 
-          <Col lg="6">
-            <div
-              className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
-            >
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img01} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img02} alt="about-img" />
-                </div>
-              </div>
-
-              <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img03} alt="about-img" />
-                </div>
-
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img04} alt="about-img" />
-                </div>
-              </div>
-            </div>
-          </Col>
+          
         </Row>
       </Container>
     </section>

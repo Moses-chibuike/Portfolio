@@ -42,8 +42,8 @@ section {
 
 footer {
   padding-bottom: 10px;
-  padding-top: 60px;
-  border-top: 1px solid #171f38;
+  padding-top: 20px;
+  border-top: none;
 }
 
 .primary__btn {
@@ -67,6 +67,7 @@ footer {
 }
 
 .secondary__btn a {
+  text-decoration: none;
   color: #01d293 !important;
 }
 .primary__btn a:hover,
