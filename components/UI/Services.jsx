@@ -35,8 +35,8 @@ const Services = () => {
             functional teams in a time-pressured setting to complete projects on schedule and within budget. Strong skills include:
             </p>
             
-            <p>
-            <div className=" d-flex align-items-center gap-5">
+            
+            <div lg="6" md="6" className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
@@ -87,7 +87,7 @@ const Services = () => {
 
             </div>
 
-            </p>
+            
           </Col>
         </Row>
       </Container>
