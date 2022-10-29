@@ -31,7 +31,7 @@ const Services = () => {
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-            I've worked with a range a technologies in the web development world. experienced in leading cross-
+            I&apos;ve worked with a range a technologies in the web development world. experienced in leading cross-
             functional teams in a time-pressured setting to complete projects on schedule and within budget. Strong skills include:
             </p>
 
