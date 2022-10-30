@@ -5,7 +5,10 @@
   border-radius: 10px;
   margin-bottom: 30px;
 }
+.port {
+  background: #171f38!important;
 
+}
 .portfolio__item h6 {
   color: #01d293;
   margin-bottom: 20px;
