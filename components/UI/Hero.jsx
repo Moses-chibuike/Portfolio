@@ -23,7 +23,7 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="https://github.com/CoDarr">Connect on GitHub</Link>
+                  <Link href="https://github.com/Moses-chibuike">Connect on GitHub</Link>
                 </button>
 
                 <button className="secondary__btn">
