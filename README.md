@@ -2,7 +2,7 @@ This is a code repository for my Personal Portfolio website. It offers insight i
 
 This is always an ongoing project as I continue to update my skills and project history.
 
-So far, the stack used includes: React, Next.js.
+So far, the stack used includes: React, and Next.js.
 
 Live Project is hosted here:https://moses-ezechukwu.vercel.app/
 
